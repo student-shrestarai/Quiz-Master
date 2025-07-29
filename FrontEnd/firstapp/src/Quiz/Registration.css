@@ -1,0 +1,96 @@
+/* Base styles */
+/* Main container */
+.registration-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f4f6f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Heading */
+  .registration-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  /* Table styling */
+  .registration-container table {
+    width: 100%;
+  }
+  
+  .registration-container td {
+    padding: 12px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .fullname,
+  .email,
+  .password,
+  .role {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  .fullname:focus,
+  .email:focus,
+  .password:focus,
+  .role:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Register button */
+  .reg_submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .reg_submit:hover {
+    background-color: #219150;
+  }
+  
+  /* Login button */
+  .login_submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .login_submit:hover {
+    background-color: #2471a3;
+  }
+  
+  /* Error or success message */
+  .registration-message {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: red;
+  }
+  

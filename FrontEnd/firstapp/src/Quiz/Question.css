@@ -1,0 +1,116 @@
+/* Main quiz container */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Question text */
+  .quiz-question {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Options layout */
+  .quiz-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 1.2s ease-in-out;
+    flex-wrap: wrap;
+  }
+  
+  /* Option buttons */
+  .quiz-option-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 18px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 45%;
+  }
+  
+  .quiz-option-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .quiz-option-button:active {
+    background-color: #1e7e34;
+    transform: scale(1);
+  }
+  
+  /* Navigation buttons */
+  .quiz-next,
+  .quiz-finish {
+    padding: 12px 30px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .quiz-next {
+    background-color: #50ea2a;
+    color: white;
+  }
+  
+  .quiz-next:hover {
+    background-color: #0c9d59;
+  }
+  
+  .quiz-next:active {
+    background-color: #0a8445;
+  }
+  
+  .quiz-finish {
+    background-color: #ff5733;
+    color: white;
+  }
+  
+  .quiz-finish:hover {
+    background-color: #e14d1e;
+  }
+  
+  .quiz-finish:active {
+    background-color: #b74018;
+  }
+  
+  /* Loading text */
+  .quiz-loading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes blink {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+  }
+  

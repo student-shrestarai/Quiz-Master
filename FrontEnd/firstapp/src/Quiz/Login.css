@@ -1,0 +1,119 @@
+/* Container for login form */
+
+
+
+
+.login_outer{
+  width:1000px;
+  height:600px;
+  background-color: #bae7ff;
+ margin-left:600px;
+ margin-top:250px;
+}
+.login_outer h1{
+   padding-left:450px;
+   padding-top:40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
+
+.login_container {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', sans-serif;
+    margin-top:90px;
+  }
+  
+  /* Page title */
+  .login_container h1 {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 25px;
+  }
+  
+  /* Table layout */
+  .login_container table {
+    width: 100%;
+  }
+  
+  .login_container td {
+    padding: 12px 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .email,
+  .password {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  .email:focus,
+  .password:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Login button */
+  .logged_in {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .login:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Success/Error message */
+  .login_container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  
+  .signup-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between text and button */
+    margin-top: 10px;
+  }
+  
+  .signup-btn {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  
+  .signup-btn:hover {
+    color: #0056b3;
+  }
+  

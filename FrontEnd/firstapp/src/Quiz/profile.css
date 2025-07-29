@@ -1,0 +1,109 @@
+/* Main welcome content */
+.main-contented {
+  padding: 30px 20px 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+ .main-contenteds{
+    background-color: #20c771;
+    height:150px;
+    color:white;
+    
+    
+
+}
+.main-contenteds p{
+    padding-left:950px;
+    font-size: 2rem;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top:30px;
+    font-weight: 800;
+}
+
+
+/* Profile Container */
+.profile-container {
+  background-color: #55f7b6;
+  padding: 30px;
+  margin: 0 auto 40px;
+  margin-top:100px;
+  max-width: 1000px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-heading {
+  margin-bottom: 40px;
+  color: #222;
+  font-weight: 800;
+}
+
+.quiz-history-heading {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Profile Table */
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.profile-table th,
+.profile-table td {
+  padding: 12px;
+  /* border-bottom: 1px solid #030000; */
+}
+
+.profile-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Footer */
+.footered {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.foot_heading h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.icons {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.icons svg {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.copyright p {
+  font-size: 14px;
+  margin-top: 5px;
+}
