@@ -57,7 +57,7 @@ Quiz-Master/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/student-shrestarai/quiz-website.git
+   https://github.com/student-shrestarai/Quiz-Master.git
    cd Quiz-Master/backend
    ```
 
